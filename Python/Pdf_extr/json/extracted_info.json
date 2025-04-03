@@ -1,0 +1,16 @@
+{
+    "name": "Martha",
+    "surname": "Papathanassiou",
+    "address": "36-38 Ifikratous St, Pangrati, Athens, 116 33, Greece",
+    "email": [
+        "mpapath@hcmr.gr"
+    ],
+    "phone": [
+        "+302107560183",
+        "+306944752220"
+    ],
+    "date_of_birth": "04/12/1981",
+    "work_experience": [
+        "January 2012 – Current Press & Communications Officer"
+    ]
+}

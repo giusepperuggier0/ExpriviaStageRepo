@@ -1,0 +1,173 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2E53191C-3B03-620F-794D-3FB40440AD7E" name="sales">
+<sourceDDLFile>esercizio1_visualization.sql</sourceDDLFile>
+<createdBy>Giuseppe</createdBy>
+<createdTime>2025-01-23 11:07:15 UTC</createdTime>
+<ownerDesignName>visualization</ownerDesignName>
+<importedID>59A7DB8E-AFE9-6B9D-8AC7-03494F319D7F</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="prod_id" id="87BD820F-FCFB-C310-C298-979E78F4B1D6">
+<sourceDDLFile>esercizio1_visualization.sql</sourceDDLFile>
+<createdBy>Giuseppe</createdBy>
+<createdTime>2025-01-23 11:07:15 UTC</createdTime>
+<ownerDesignName>visualization</ownerDesignName>
+<importedID>B68E7B75-BD6B-12FF-5FE5-FC4046B052E5</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>4325A9CD-2EBF-5C44-311C-77A1859CFA62</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cust_id" id="F160C876-E3C5-DFEC-A679-D88CC745B0CF">
+<sourceDDLFile>esercizio1_visualization.sql</sourceDDLFile>
+<createdBy>Giuseppe</createdBy>
+<createdTime>2025-01-23 11:07:15 UTC</createdTime>
+<ownerDesignName>visualization</ownerDesignName>
+<importedID>E1300A03-6B9F-F0F3-E65B-DF6DD1963F34</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>4325A9CD-2EBF-5C44-311C-77A1859CFA62</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0A1D4F9A-619A-DF0E-88DB-0BD2D63BC830" referredColumn="D017BD06-B239-B748-C27A-1DAC4A64031F"/>
+</associations>
+</Column>
+<Column name="time_id" id="ADF694A4-59FB-EEE5-12BA-9A0BF348C015">
+<sourceDDLFile>esercizio1_visualization.sql</sourceDDLFile>
+<createdBy>Giuseppe</createdBy>
+<createdTime>2025-01-23 11:07:15 UTC</createdTime>
+<ownerDesignName>visualization</ownerDesignName>
+<importedID>A8CC4894-6130-25CF-3F97-7430762FD9A6</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>94309F27-086D-30FB-7FEA-8CD87219FAD7</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="channel_id" id="FE884A31-1D4A-27E0-B490-65C8344B9C4F">
+<sourceDDLFile>esercizio1_visualization.sql</sourceDDLFile>
+<createdBy>Giuseppe</createdBy>
+<createdTime>2025-01-23 11:07:15 UTC</createdTime>
+<ownerDesignName>visualization</ownerDesignName>
+<importedID>C68F9F2B-E85F-D03C-089C-8F25F0BC7EC6</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>4325A9CD-2EBF-5C44-311C-77A1859CFA62</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="promo_id" id="9904596E-9DC7-CAA3-5853-DCC3C475F4A5">
+<sourceDDLFile>esercizio1_visualization.sql</sourceDDLFile>
+<createdBy>Giuseppe</createdBy>
+<createdTime>2025-01-23 11:07:15 UTC</createdTime>
+<ownerDesignName>visualization</ownerDesignName>
+<importedID>53A8AC41-20AA-8A01-FBCC-D27342A718ED</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>4325A9CD-2EBF-5C44-311C-77A1859CFA62</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="quantity_sold" id="B9F80D3D-DEF4-5C4A-482D-1D4848D57AF2">
+<sourceDDLFile>esercizio1_visualization.sql</sourceDDLFile>
+<createdBy>Giuseppe</createdBy>
+<createdTime>2025-01-23 11:07:15 UTC</createdTime>
+<ownerDesignName>visualization</ownerDesignName>
+<importedID>5CDC4215-FEBC-08CC-2AED-D0C2985C10B5</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>4325A9CD-2EBF-5C44-311C-77A1859CFA62</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="amount_sold" id="E94267F7-B95E-0557-8B67-6AD2D4A5AB56">
+<sourceDDLFile>esercizio1_visualization.sql</sourceDDLFile>
+<createdBy>Giuseppe</createdBy>
+<createdTime>2025-01-23 11:07:15 UTC</createdTime>
+<ownerDesignName>visualization</ownerDesignName>
+<importedID>5B3C804F-863A-D76B-40F1-D4A9CC1979A9</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<domain>416DAB01-9CF4-2FA0-E008-1A096B3DC514</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F9BDF1BC-984F-25A1-F2F1-74DC353A0B6D" name="sales__IDXv4">
+<sourceDDLFile>esercizio1_visualization.sql</sourceDDLFile>
+<createdBy>Giuseppe</createdBy>
+<createdTime>2025-01-23 11:07:15 UTC</createdTime>
+<ownerDesignName>visualization</ownerDesignName>
+<importedID>A232814F-8259-138D-ABC4-E716B8354F6E</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9904596E-9DC7-CAA3-5853-DCC3C475F4A5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="12B91D46-E125-CD20-A74A-8957C8215EEA" name="sales__IDX">
+<sourceDDLFile>esercizio1_visualization.sql</sourceDDLFile>
+<createdBy>Giuseppe</createdBy>
+<createdTime>2025-01-23 11:07:15 UTC</createdTime>
+<ownerDesignName>visualization</ownerDesignName>
+<importedID>C96008E5-4E5D-7065-14E2-9942EEDCA4C2</importedID>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="87BD820F-FCFB-C310-C298-979E78F4B1D6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AF0BA387-EE91-864E-C8AF-E5BFEBC0DB83" name="sales__IDXv1">
+<sourceDDLFile>esercizio1_visualization.sql</sourceDDLFile>
+<createdBy>Giuseppe</createdBy>
+<createdTime>2025-01-23 11:07:15 UTC</createdTime>
+<ownerDesignName>visualization</ownerDesignName>
+<importedID>2226270C-E770-75BD-AAD9-E18971A86EF0</importedID>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F160C876-E3C5-DFEC-A679-D88CC745B0CF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="435D28A3-FF80-2EE5-2B2B-65A35774E404" name="sales__IDXv2">
+<sourceDDLFile>esercizio1_visualization.sql</sourceDDLFile>
+<createdBy>Giuseppe</createdBy>
+<createdTime>2025-01-23 11:07:15 UTC</createdTime>
+<ownerDesignName>visualization</ownerDesignName>
+<importedID>B6DC5671-3CB7-8B26-A99F-8D39142074B3</importedID>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ADF694A4-59FB-EEE5-12BA-9A0BF348C015"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="96066337-BCA9-6119-F17D-AC2B9641A753" name="sales__IDXv3">
+<sourceDDLFile>esercizio1_visualization.sql</sourceDDLFile>
+<createdBy>Giuseppe</createdBy>
+<createdTime>2025-01-23 11:07:15 UTC</createdTime>
+<ownerDesignName>visualization</ownerDesignName>
+<importedID>511C07A4-669C-EE48-7B97-AF51306FBFF7</importedID>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FE884A31-1D4A-27E0-B490-65C8344B9C4F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E1162AAE-FB25-79E3-7B0D-D4961C1350E9" name="sales_FK0">
+<createdBy>Giuseppe</createdBy>
+<createdTime>2025-01-23 11:07:15 UTC</createdTime>
+<ownerDesignName>visualization</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F160C876-E3C5-DFEC-A679-D88CC745B0CF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,35 @@
+Curriculum 1
+
+Anna M. Lindberg
+Stockholm, Sweden
++46 70 123 45 67
+anna.lindberg@email.com
+
+Date of Birth: 1990 | Nationality: Swedish
+
+WORK EXPERIENCE:
+
+04/2018 - Present
+PRODUCT MANAGER - TechGlobal
+- Oversee product lifecycle and collaborate with R&D teams.
+- Focused on software innovation and project execution.
+
+06/2012 - 03/2018
+MARKETING SPECIALIST - InnovateTech
+- Managed digital marketing campaigns for tech products.
+- Strong focus on social media and online marketing.
+
+EDUCATION:
+2012
+BACHELOR OF SCIENCE - Stockholm University
+
+SKILLS:
+- Cloud Computing
+- AI & Machine Learning
+- Software Engineering
+- Python and JavaScript
+
+LANGUAGE SKILLS:
+- Swedish (Native)
+- English (Fluent)
+

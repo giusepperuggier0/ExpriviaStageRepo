@@ -1,0 +1,222 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2FC742AE-01EC-7AD3-7754-53AF0BB1C22C" name="demographics">
+<sourceDDLFile>esercizio1_visualization.sql</sourceDDLFile>
+<createdBy>Giuseppe</createdBy>
+<createdTime>2025-01-23 11:07:15 UTC</createdTime>
+<ownerDesignName>visualization</ownerDesignName>
+<importedID>167C4749-400A-316C-BD76-E562D3D86F51</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cust_id" id="06BB2BD1-EF66-CEEB-CDC4-9EADD98270EE">
+<sourceDDLFile>esercizio1_visualization.sql</sourceDDLFile>
+<createdBy>Giuseppe</createdBy>
+<createdTime>2025-01-23 11:07:15 UTC</createdTime>
+<ownerDesignName>visualization</ownerDesignName>
+<importedID>82AFB182-BDDC-FD5E-9DD1-1439C45AEBB4</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>4325A9CD-2EBF-5C44-311C-77A1859CFA62</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FA462C35-47CE-B330-ADFC-BCBEA52D04C1" referredColumn="D017BD06-B239-B748-C27A-1DAC4A64031F"/>
+</associations>
+</Column>
+<Column name="education" id="EBF126E9-1C9F-12A3-2849-2DBF7E7DE416">
+<sourceDDLFile>esercizio1_visualization.sql</sourceDDLFile>
+<createdBy>Giuseppe</createdBy>
+<createdTime>2025-01-23 11:07:15 UTC</createdTime>
+<ownerDesignName>visualization</ownerDesignName>
+<importedID>76CC3AF8-1158-46A4-5F13-FF83FC681AAC</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>4F4DD3CC-DA95-8E83-34C5-3E93611174D5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="occupation" id="AA2368D7-43CF-DBA7-8A66-997E04E241B0">
+<sourceDDLFile>esercizio1_visualization.sql</sourceDDLFile>
+<createdBy>Giuseppe</createdBy>
+<createdTime>2025-01-23 11:07:15 UTC</createdTime>
+<ownerDesignName>visualization</ownerDesignName>
+<importedID>6623C444-C6BE-3EFD-5687-1B3509530CAB</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>4F4DD3CC-DA95-8E83-34C5-3E93611174D5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="household_size" id="2AC7D1B3-583D-5BF7-2AE3-68F0CE80E8E3">
+<sourceDDLFile>esercizio1_visualization.sql</sourceDDLFile>
+<createdBy>Giuseppe</createdBy>
+<createdTime>2025-01-23 11:07:15 UTC</createdTime>
+<ownerDesignName>visualization</ownerDesignName>
+<importedID>2FB57848-F690-021C-15B6-978822B0C379</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>4325A9CD-2EBF-5C44-311C-77A1859CFA62</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="yrs_residence" id="BB694662-2831-D98C-1A71-880E49FE4515">
+<sourceDDLFile>esercizio1_visualization.sql</sourceDDLFile>
+<createdBy>Giuseppe</createdBy>
+<createdTime>2025-01-23 11:07:15 UTC</createdTime>
+<ownerDesignName>visualization</ownerDesignName>
+<importedID>134CEFCC-0DCF-9562-68CB-E1878C2966EE</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>4325A9CD-2EBF-5C44-311C-77A1859CFA62</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="affinity_card" id="AFC521F9-C91D-0EF6-6F7B-E39CEB8A6D73">
+<sourceDDLFile>esercizio1_visualization.sql</sourceDDLFile>
+<createdBy>Giuseppe</createdBy>
+<createdTime>2025-01-23 11:07:15 UTC</createdTime>
+<ownerDesignName>visualization</ownerDesignName>
+<importedID>E392F330-B593-135C-6999-207C8CA9C1EF</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>AE2DA078-613C-0B51-DF02-78A8FB918260</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="bulk_pack_diskettes" id="4A65D7B5-66CE-FE14-6C97-59BA04D99885">
+<sourceDDLFile>esercizio1_visualization.sql</sourceDDLFile>
+<createdBy>Giuseppe</createdBy>
+<createdTime>2025-01-23 11:07:15 UTC</createdTime>
+<ownerDesignName>visualization</ownerDesignName>
+<importedID>54FC069B-8612-0A96-27B2-D6F1CE53B82F</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>AE2DA078-613C-0B51-DF02-78A8FB918260</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="flat_panel_monitor" id="E5F0A912-2F1A-3B19-F8EC-1D4C5559DF8E">
+<sourceDDLFile>esercizio1_visualization.sql</sourceDDLFile>
+<createdBy>Giuseppe</createdBy>
+<createdTime>2025-01-23 11:07:15 UTC</createdTime>
+<ownerDesignName>visualization</ownerDesignName>
+<importedID>E1A281A5-E95C-5529-40BF-EB0C5168DEF7</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>AE2DA078-613C-0B51-DF02-78A8FB918260</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="home_theater_package" id="022E51AD-2BD3-6966-7899-56CF3B9B5E48">
+<sourceDDLFile>esercizio1_visualization.sql</sourceDDLFile>
+<createdBy>Giuseppe</createdBy>
+<createdTime>2025-01-23 11:07:15 UTC</createdTime>
+<ownerDesignName>visualization</ownerDesignName>
+<importedID>6EACF51A-4EF1-4278-A68E-BE979CC84F04</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>AE2DA078-613C-0B51-DF02-78A8FB918260</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="bookkeeping_application" id="002EFC41-23FF-83E8-4176-0D4C1095419C">
+<sourceDDLFile>esercizio1_visualization.sql</sourceDDLFile>
+<createdBy>Giuseppe</createdBy>
+<createdTime>2025-01-23 11:07:15 UTC</createdTime>
+<ownerDesignName>visualization</ownerDesignName>
+<importedID>300E2EDF-8DEF-F332-EABF-B0577A6EA2FF</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>AE2DA078-613C-0B51-DF02-78A8FB918260</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="printer_supplies" id="4A2F95B8-5653-A2CF-39DE-78D7AC934448">
+<sourceDDLFile>esercizio1_visualization.sql</sourceDDLFile>
+<createdBy>Giuseppe</createdBy>
+<createdTime>2025-01-23 11:07:15 UTC</createdTime>
+<ownerDesignName>visualization</ownerDesignName>
+<importedID>C86E568B-ED03-46F8-5C54-7F4DEC5359E4</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>AE2DA078-613C-0B51-DF02-78A8FB918260</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="y_box_games" id="F8E332A5-1B12-A1F6-2E66-00D4AB121ED4">
+<sourceDDLFile>esercizio1_visualization.sql</sourceDDLFile>
+<createdBy>Giuseppe</createdBy>
+<createdTime>2025-01-23 11:07:15 UTC</createdTime>
+<ownerDesignName>visualization</ownerDesignName>
+<importedID>F73ADBD1-06CA-587E-903E-F79326887999</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>AE2DA078-613C-0B51-DF02-78A8FB918260</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="os_doc_set_kanji" id="E3E8C58A-3AF5-526E-70BE-D5FD797D2574">
+<sourceDDLFile>esercizio1_visualization.sql</sourceDDLFile>
+<createdBy>Giuseppe</createdBy>
+<createdTime>2025-01-23 11:07:15 UTC</createdTime>
+<ownerDesignName>visualization</ownerDesignName>
+<importedID>76CDB5E6-3314-8AA3-91D4-F96D09E17603</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>AE2DA078-613C-0B51-DF02-78A8FB918260</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="comments" id="92DA193D-ED8D-D82E-C333-FEB8FC5123F5">
+<sourceDDLFile>esercizio1_visualization.sql</sourceDDLFile>
+<createdBy>Giuseppe</createdBy>
+<createdTime>2025-01-23 11:07:15 UTC</createdTime>
+<ownerDesignName>visualization</ownerDesignName>
+<importedID>DEE6440B-B051-9D92-8A85-26A743CC9760</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>4F4DD3CC-DA95-8E83-34C5-3E93611174D5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F15618D4-4A6F-65FB-B1FD-7C27E29C520E" name="demographics__IDX">
+<sourceDDLFile>esercizio1_visualization.sql</sourceDDLFile>
+<createdBy>Giuseppe</createdBy>
+<createdTime>2025-01-23 11:07:15 UTC</createdTime>
+<ownerDesignName>visualization</ownerDesignName>
+<importedID>5230F1BA-BBD4-AB3B-3BC9-FF6F2782C98C</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="06BB2BD1-EF66-CEEB-CDC4-9EADD98270EE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D499E35A-C26C-7602-FE35-780D0BC50DF7" name="demographics_FK0">
+<createdBy>Giuseppe</createdBy>
+<createdTime>2025-01-23 11:07:15 UTC</createdTime>
+<ownerDesignName>visualization</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="06BB2BD1-EF66-CEEB-CDC4-9EADD98270EE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

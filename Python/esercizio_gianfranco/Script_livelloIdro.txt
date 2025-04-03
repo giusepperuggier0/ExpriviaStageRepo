@@ -1,0 +1,15 @@
+-- docker cp 'C:\Users\Giuseppe\Desktop\Stage_exprivia\Python\Analisi_livello_marino_adriatico\dati_bari.csv' e91138ed3160:/opt/hive/bin/
+
+
+create table dati_bari(
+	id int,
+	citta String,
+	h24 Float,
+	h48 Float,
+	h72 Float,
+	lng Float,
+	lat Float,
+	mare String
+)ROW FORMAT DELIMITED
+FIELDS TERMINATED BY ','
+TBLPROPERTIES ("skip.header.line.count"="1");

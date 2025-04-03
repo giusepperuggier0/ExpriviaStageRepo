@@ -1,0 +1,34 @@
+Curriculum 4
+
+Felix S. Keller
+Zurich, Switzerland
++41 79 876 5432
+felix.keller@swissmail.com
+
+Date of Birth: 1992 | Nationality: Swiss
+
+WORK EXPERIENCE:
+
+01/2020 - Present
+SOFTWARE ENGINEER - SwissTech Innovations
+- Developed software for automated processes in manufacturing.
+- Experience with machine learning and artificial intelligence.
+
+07/2015 - 12/2019
+IT SPECIALIST - IT Solutions AG
+- Focused on cloud-based solutions for clients across Europe.
+
+EDUCATION:
+2015
+BACHELOR OF COMPUTER SCIENCE - ETH Zurich
+
+SKILLS:
+- Cloud Computing
+- AI & Machine Learning
+- Software Engineering
+- Python and JavaScript
+
+LANGUAGE SKILLS:
+- German (Native)
+- English (Fluent)
+

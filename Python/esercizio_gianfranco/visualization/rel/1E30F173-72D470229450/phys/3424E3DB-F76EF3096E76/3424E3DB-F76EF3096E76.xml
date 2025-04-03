@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<StorageDesignSqlServerv2k class="oracle.dbtools.crest.model.design.storage.sqlserver.v2k.StorageDesignSqlServerv2k" name="SQL Server 2000" id="F32A3FA4-115F-5D85-DE50-5FC374081F1A" siteID="3424E3DB-6FE1-14EB-9311-F76EF3096E76" siteName="SQL Server 2000" siteType="4">
+<createdBy>Giuseppe</createdBy>
+<createdTime>2025-01-23 11:07:13 UTC</createdTime>
+<ownerDesignName>Senza titolo_1</ownerDesignName>
+<dtdialogVisible>false</dtdialogVisible>
+<imported>false</imported>
+</StorageDesignSqlServerv2k>

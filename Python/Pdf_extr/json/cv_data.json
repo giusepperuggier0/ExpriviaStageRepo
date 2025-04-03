@@ -1,0 +1,210 @@
+[
+    {
+        "name": "Anna M.",
+        "surname": "Lindberg",
+        "email": "anna.lindberg@email.com",
+        "phone": "+46 70 123 45 67",
+        "date_of_birth": "1990",
+        "recent_work_experience": "04/2018 - Present\nPRODUCT MANAGER - TechGlobal\n- Oversee product lifecycle and collaborate with R&D teams.",
+        "work_skills": [
+            "Cloud Computing",
+            "AI & Machine Learning",
+            "Software Engineering",
+            "Python and JavaScript"
+        ],
+        "language_skills": [
+            "Swedish (Native)",
+            "English (Fluent)"
+        ],
+        "source_file": "cv_1.txt"
+    },
+    {
+        "name": "Maria F.",
+        "surname": "Costa",
+        "email": "maria.costa@italyemail.com",
+        "phone": "+39 345 678 9012",
+        "date_of_birth": "1994",
+        "recent_work_experience": "09/2018 - Present\nDATA ANALYST - Data Insights Ltd.\n- Analyzed and visualized large data sets for business intelligence purposes.",
+        "work_skills": [
+            "Data Analysis",
+            "Software Engineering",
+            "Backend Development"
+        ],
+        "language_skills": [
+            "Italian (Native)",
+            "English (Fluent)"
+        ],
+        "source_file": "cv_10.txt"
+    },
+    {
+        "name": "Oliver L.",
+        "surname": "Turner",
+        "email": "oliver.turner@scottishmail.com",
+        "phone": "+44 131 234 5678",
+        "date_of_birth": "1989",
+        "recent_work_experience": "05/2015 - Present\nSYSTEMS ENGINEER - ScotTech Solutions\n- Worked on IT infrastructure and systems for corporate clients.",
+        "work_skills": [
+            "Cloud Computing",
+            "AI & Machine Learning",
+            "Software Engineering",
+            "Python and JavaScript"
+        ],
+        "language_skills": [
+            "English (Native)",
+            "French (Intermediate)"
+        ],
+        "source_file": "cv_11.txt"
+    },
+    {
+        "name": "Marcus J.",
+        "surname": "Behrens",
+        "email": "marcus.behrens@service.com",
+        "phone": "+49 170 987 6543",
+        "date_of_birth": "1987",
+        "recent_work_experience": "09/2015 - Present\nIT CONSULTANT - FutureTech Solutions\n- Designed and implemented IT systems for multinational corporations.",
+        "work_skills": [
+            "Project Management",
+            "Content Strategy",
+            "Digital Marketing",
+            "Data Analysis"
+        ],
+        "language_skills": [
+            "German (Native)",
+            "English (Fluent)",
+            "French (Basic)"
+        ],
+        "source_file": "cv_2.txt"
+    },
+    {
+        "name": "Clara E.",
+        "surname": "Johnson",
+        "email": "clara.johnson@workemail.com",
+        "phone": "+44 7911 123456",
+        "date_of_birth": "1983",
+        "recent_work_experience": "05/2016 - Present\nBUSINESS DEVELOPMENT MANAGER - Global Solutions Ltd.\n- Created strategies for expanding global market reach.",
+        "work_skills": [
+            "Business Strategy",
+            "Sales & Marketing",
+            "Client Relations"
+        ],
+        "language_skills": [
+            "English (Native)",
+            "Spanish (Intermediate)"
+        ],
+        "source_file": "cv_3.txt"
+    },
+    {
+        "name": "Felix S.",
+        "surname": "Keller",
+        "email": "felix.keller@swissmail.com",
+        "phone": "+41 79 876 5432",
+        "date_of_birth": "1992",
+        "recent_work_experience": "01/2020 - Present\nSOFTWARE ENGINEER - SwissTech Innovations\n- Developed software for automated processes in manufacturing.",
+        "work_skills": [
+            "Cloud Computing",
+            "AI & Machine Learning",
+            "Software Engineering",
+            "Python and JavaScript"
+        ],
+        "language_skills": [
+            "German (Native)",
+            "English (Fluent)"
+        ],
+        "source_file": "cv_4.txt"
+    },
+    {
+        "name": "Diana L.",
+        "surname": "Gomez",
+        "email": "diana.gomez@email.com",
+        "phone": "+34 612 345 678",
+        "date_of_birth": "1988",
+        "recent_work_experience": "03/2017 - Present\nPROJECT MANAGER - InnovateTech Solutions\n- Managed international teams to launch tech products.",
+        "work_skills": [
+            "Project Management",
+            "Content Strategy",
+            "Digital Marketing",
+            "Data Analysis"
+        ],
+        "language_skills": [
+            "Spanish (Native)",
+            "English (Fluent)"
+        ],
+        "source_file": "cv_5.txt"
+    },
+    {
+        "name": "Liam H.",
+        "surname": "Richards",
+        "email": "liam.richards@irelandmail.com",
+        "phone": "+353 87 654 3210",
+        "date_of_birth": "1991",
+        "recent_work_experience": "11/2017 - Present\nSALES MANAGER - GlobalTech Solutions\n- Managed cross-functional teams to deliver results in software sales.",
+        "work_skills": [
+            "Sales & Marketing Strategy",
+            "Market Research",
+            "Cross-functional Team Leadership"
+        ],
+        "language_skills": [
+            "English (Native)",
+            "French (Intermediate)"
+        ],
+        "source_file": "cv_6.txt"
+    },
+    {
+        "name": "Hannah T.",
+        "surname": "Schmidt",
+        "email": "hannah.schmidt@germanmail.com",
+        "phone": "+49 160 123 9876",
+        "date_of_birth": "1990",
+        "recent_work_experience": "06/2018 - Present\nBUSINESS CONSULTANT - Smart Solutions\n- Consulted clients on IT and business integration strategies.",
+        "work_skills": [
+            "Project Management",
+            "Content Strategy",
+            "Digital Marketing",
+            "Data Analysis"
+        ],
+        "language_skills": [
+            "German (Native)",
+            "English (Fluent)",
+            "Italian (Basic)"
+        ],
+        "source_file": "cv_7.txt"
+    },
+    {
+        "name": "Eva P.",
+        "surname": "Santiago",
+        "email": "eva.santiago@spainemail.com",
+        "phone": "+34 601 234 567",
+        "date_of_birth": "1986",
+        "recent_work_experience": "08/2015 - Present\nMARKETING DIRECTOR - Global Business Group\n- Managed global marketing initiatives across multiple platforms.",
+        "work_skills": [
+            "Digital Marketing",
+            "Brand Strategy",
+            "Media Relations"
+        ],
+        "language_skills": [
+            "Spanish (Native)",
+            "English (Fluent)"
+        ],
+        "source_file": "cv_8.txt"
+    },
+    {
+        "name": "Johan S.",
+        "surname": "Nielsen",
+        "email": "johan.nielsen@email.dk",
+        "phone": "+45 213 456 789",
+        "date_of_birth": "1982",
+        "recent_work_experience": "12/2016 - Present\nENGINEERING MANAGER - EnergyTech Solutions\n- Oversaw engineering teams focused on renewable energy projects.",
+        "work_skills": [
+            "Project Management",
+            "Content Strategy",
+            "Digital Marketing",
+            "Data Analysis"
+        ],
+        "language_skills": [
+            "Danish (Native)",
+            "English (Fluent)",
+            "Swedish (Basic)"
+        ],
+        "source_file": "cv_9.txt"
+    }
+]

@@ -1,0 +1,1 @@
+"C:\confluent-53\bin\windows\kafka-console-producer.bat" --topic test1 --broker-list localhost:9092 < "C:\Users\Giuseppe\Desktop\Stage_exprivia\Java\Javaoutput_csv\file_3.csv"

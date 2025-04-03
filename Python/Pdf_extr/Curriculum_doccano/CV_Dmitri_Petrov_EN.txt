@@ -1,0 +1,29 @@
+Dmitri Petrov
+
+Moscow, Russia
++7 495 123 4567
+dmitri.petrov@email.com
+
+Date of birth: 22 July 1985
+
+WORK EXPERIENCE:
+
+2016 - Present
+SYSTEMS ENGINEER (Library Technologies)
+- Automated library system development
+- Data security solutions
+- Smart system implementation
+- Based in Moscow, Russia
+
+2012 - 2016
+TECHNICAL SPECIALIST
+- High-security data systems
+- Public resource management platforms
+- Technical documentation
+
+2008 - 2012
+JUNIOR DEVELOPER
+- Database management systems
+- Basic system architecture
+
+[Note: Original document contained technical specifications about library/data systems]

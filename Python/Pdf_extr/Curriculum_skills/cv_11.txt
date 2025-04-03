@@ -1,0 +1,33 @@
+Curriculum 11
+
+Oliver L. Turner
+Edinburgh, Scotland
++44 131 234 5678
+oliver.turner@scottishmail.com
+
+Date of Birth: 1989 | Nationality: British
+
+WORK EXPERIENCE:
+
+05/2015 - Present
+SYSTEMS ENGINEER - ScotTech Solutions
+- Worked on IT infrastructure and systems for corporate clients.
+
+07/2010 - 04/2015
+IT CONSULTANT - IT Consultancy Ltd.
+- Provided IT consulting services for various industries.
+
+EDUCATION:
+2010
+BACHELOR OF ENGINEERING - University of Edinburgh
+
+SKILLS:
+- Cloud Computing
+- AI & Machine Learning
+- Software Engineering
+- Python and JavaScript
+
+LANGUAGE SKILLS:
+- English (Native)
+- French (Intermediate)
+

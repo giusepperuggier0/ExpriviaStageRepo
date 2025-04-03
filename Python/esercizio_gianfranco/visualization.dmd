@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="visualization" id="060B2CCC-64CE-B0C2-447B-D9F6236A859D" version="3.5">
+<createdBy>Giuseppe</createdBy>
+<createdTime>2025-01-23 11:06:22 UTC</createdTime>
+<ownerDesignName>visualization</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>060B2CCC-64CE-B0C2-447B-D9F6236A859D</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="8474361D-80B5-7821-2700-0B77007B1B76">
+<designStoragePath>C:\esercizio1_visualization</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

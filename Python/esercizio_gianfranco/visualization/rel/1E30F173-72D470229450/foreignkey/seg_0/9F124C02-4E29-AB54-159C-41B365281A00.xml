@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="9F124C02-4E29-AB54-159C-41B365281A00" containerWithKeyObject="62CF403D-9024-21F4-239B-620C65FB98AA" localFKIndex="AC34E638-58DE-F188-DA77-4834C4F47F85" name="costs_FK0">
+<sourceDDLFile>esercizio1_visualization.sql</sourceDDLFile>
+<createdBy>Giuseppe</createdBy>
+<createdTime>2025-01-23 11:07:15 UTC</createdTime>
+<ownerDesignName>visualization</ownerDesignName>
+<importedID>7E7E973C-B860-E84A-D0E1-A223E92F5B2B</importedID>
+<referredTableLongName>channels</referredTableLongName>
+<deleteRule>NO</deleteRule>
+<referredTableID>6A40913B-A8FE-A12C-92B5-9E5B9E9B2179</referredTableID>
+<keyObject>466B153D-3ADA-B0E2-66E7-FA9F18ABB81D</keyObject>
+<referredKeyID>466B153D-3ADA-B0E2-66E7-FA9F18ABB81D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>channel_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

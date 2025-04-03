@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dati da Kafka</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./index.css">
+    
+</head>
+    <style>
+        .sidebar {
+            width: 250px;
+            height: 100%;
+            background: #f8f9fa;
+            padding: 20px;
+            overflow-y: auto;
+        }
+        .content {
+            margin-left: 50px;
+            padding: 20px;
+        }
+        .loading {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .station-item {
+            cursor: pointer;
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+        }
+        .station-item:hover {
+            background: #e9ecef;
+        }
+
+        .table-container {
+    width: auto; 
+    max-width: 800px; 
+    margin: auto; 
+}
+
+#kafka-data-table {
+    font-size: 12px; 
+    width: 100%; 
+    table-layout: fixed;
+}
+
+#kafka-data-table th, 
+#kafka-data-table td {
+    padding: 4px; 
+    white-space: nowrap; 
+    text-align: center; 
+}
+
+#kafka-data-table th {
+    font-size: 13px; 
+    background-color: #f2f2f2; 
+}
+
+#kafka-data-table td {
+    overflow: hidden;
+    text-overflow: ellipsis; 
+}
+
+#station-list li {
+    text-transform: capitalize;
+}
+
+        
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg p-3">
+        <div class="container-fluid">
+            <img src="image.jpeg" alt="Logo" width="170" height="72" class="d-inline-block align-text-top">
+            <div class="container-fluid position-center">
+                <a class="navbar-brand" href="index.html">
+                  Sito dell'Ispra
+                </a>
+              </div>
+            
+
+              <div class="container-fluid me-5">
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success btn-search" type="submit">Search</button>
+                </form>
+              </div>
+
+
+
+          <a class="navbar-brand" href="./index.html">HOME</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" href="#">SERVIZI</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./banca-dati.html">DATI </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">NEWS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">ATTIVITA'</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        
+      </nav>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light p-3">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Banca Dati</a>
+        </div>
+    </nav>
+
+    <div class="px-4 py-5 my-5 text-center">
+        <h1 class="display-5 fw-bold text-body-emphasis">Stazioni Marine in Tempo Reale</h1>
+    
+        <!-- Descrizione del contenuto -->
+        <div class="col-lg-6 mx-auto">
+            <p class="lead mb-4">Seleziona una stazione per visualizzare i dati.</p>
+    
+            <!-- Pulsanti centrati -->
+            <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                <button type="button" class="btn btn-primary btn-lg px-4 gap-3">   
+                    <a href="./banca-dati.html" style="color: white; list-style: none; text-decoration: none;">Tabella Stazioni</a>
+                </button>
+                <button type="button" class="btn btn-outline-secondary btn-lg px-4">
+                    <a href="./banca-dati-graf.html" style="color: grey; list-style: none; text-decoration: none;">Grafico Stazioni</a>
+                </button>
+            </div>
+        </div>
+    </div>
+    
+    <div class="d-flex">
+        <!-- Sidebar con lista delle stazioni (opzionale) -->
+        <div class="sidebar">
+            <h5>Stazioni Marine</h5>
+            <ul id="station-list" style="list-style: none;">
+                <!-- La lista delle stazioni verrà generata dinamicamente -->
+            </ul>
+        </div>
+    
+        <!-- Contenuto principale -->
+        <div class="content">
+            <h2>Dati in tempo reale - <span id="station-name">Seleziona una stazione</span></h2>
+            <div class="loading" id="loading-message">Seleziona una stazione per visualizzare i dati o il relativo grafico</div>
+    
+            <div class="row">
+                <!-- Sezione Dati Tabella -->
+                <div class="col-md-6">
+                    <div class="table-container">
+                        <table class="table table-striped mt-3" id="kafka-data-table" style="display: none;">
+                            <thead>
+                                <tr>
+                                    <th style="width: 120px;">Data/Ora</th>
+                                    <th style="width: 50px;">Liv</th>
+                                    <th style="width: 50px;">T H20</th>
+                                    <th style="width: 50px;">T Aria</th>
+                                    <th style="width: 50px;">U rel</th>
+                                    <th style="width: 60px;">P Atmo</th>
+                                    <th style="width: 50px;">DIR V</th>
+                                    <th style="width: 50px;">VEL V</th>
+                                </tr>
+                            </thead>
+                            <tbody id="kafka-data">
+                                <!-- Qui verranno inseriti i dati -->
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script>
+        let selectedStation = null;
+
+        // Recupera l'elenco delle stazioni
+        function fetchStations() {
+            fetch("http://localhost:5000/valid_stations")
+                .then(response => {
+                     if (!response.ok) {
+            throw new Error(`Errore nella risposta: ${response.statusText}`);
+        }
+        return response.json();
+    })
+    .then(stations => {
+        const stationList = document.getElementById("station-list");
+        stationList.innerHTML = "";
+        stations.forEach(station => {
+            const stationItem = document.createElement("li");
+            stationItem.className = "station-item";
+            stationItem.textContent = station;
+            stationItem.textContent = capitalize(station);  // Capitalizza la stazione e rimuove "_24"
+            stationItem.onclick = () => selectStation(station);
+            stationList.appendChild(stationItem);
+        });
+    })
+    .catch(error => {
+        console.error("Errore nel recupero delle stazioni:", error);
+        alert("Si è verificato un errore nel recupero delle stazioni. Controlla la console per ulteriori dettagli.");
+    })};
+
+
+        // Seleziona una stazione
+        function selectStation(station) {
+            selectedStation = station;
+            document.querySelectorAll(".station-item").forEach(item => item.classList.remove("active"));
+            event.target.classList.add("active");
+            fetchData(station);
+        }
+
+        
+        function fetchData(station) {
+    document.getElementById("loading-message").style.display = "block";
+    document.getElementById("kafka-data-table").style.display = "none";
+
+    fetch(`http://localhost:5000/kafka-data?station=${station}`)
+        .then(response => response.json())
+        .then(data => {
+            console.log("Dati ricevuti:", data); 
+
+            const tableBody = document.getElementById("kafka-data");
+            tableBody.innerHTML = "";
+
+            if (data.length === 0) {
+                tableBody.innerHTML = "<tr><td colspan='8'>Nessun dato disponibile</td></tr>";
+            } else {
+                
+                data.sort((a, b) => {
+                    const dateA = new Date(`${a.data} ${a.ora}`);
+                    const dateB = new Date(`${b.data} ${b.ora}`);
+                    return dateA - dateB;
+                });
+
+                
+                data.forEach(record => {
+                    const row = `
+                        <tr>
+                            <td>${record.data} ${record.ora}</td>
+                            <td>${roundValue(record.livello_idrometrico)}</td>
+                            <td>${roundValue(record.temperatura_acqua)}</td>
+                            <td>${roundValue(record.temperatura_aria)}</td>
+                            <td>${roundValue(record.umidita_relativa)}</td>
+                            <td>${roundValue(record.pressione_atmosferica)}</td>
+                            <td>${roundValue(record.direzione_vento)}</td>
+                            <td>${roundValue(record.velocita_vento)}</td>
+                        </tr>
+                    `;
+                    tableBody.innerHTML += row;
+                });
+            }
+
+            document.getElementById("loading-message").style.display = "none";
+            document.getElementById("kafka-data-table").style.display = "table";
+        })
+        .catch(error => {
+            console.error("Errore nel recupero dati:", error);
+            document.getElementById("loading-message").style.display = "none";
+        });
+}
+
+
+
+function roundValue(value) {
+    if (value === null || value === undefined || value === '-') {
+        return '-';
+    }
+    const num = parseFloat(value);
+    return isNaN(num) ? '-' : num.toFixed(2);  // Arrotonda a 2 decimali
+}
+
+
+function capitalize(str) {
+    str = str.replace('_24', '');
+    return str.split(' ').map(word => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase()).join(' ');
+}
+
+
+function generateChart(data) {
+    const ctx = document.getElementById('myChart').getContext('2d');
+
+    // Estrai i dati per il grafico
+    const times = data.map(record => record.data + " " + record.ora);
+    const levels = data.map(record => parseFloat(record.livello_idrometrico));
+
+    // Crea il grafico
+    new Chart(ctx, {
+        type: 'line',
+        data: {
+            labels: times, // Etichette per l'asse X
+            datasets: [{
+                label: 'Livello Idrometrico',
+                data: levels, // Dati per l'asse Y
+                borderColor: 'blue',
+                backgroundColor: 'rgba(0, 123, 255, 0.2)',
+                fill: true,
+                tension: 0.4
+            }]
+        },
+        options: {
+            responsive: true,
+            scales: {
+                x: {
+                    type: 'category',
+                    title: {
+                        display: true,
+                        text: 'Data/Ora'
+                    }
+                },
+                y: {
+                    title: {
+                        display: true,
+                        text: 'Livello Idrometrico (m)'
+                    },
+                    min: 0
+                }
+            }
+        }
+    });
+}
+
+
+function selectStation(station) {
+    selectedStation = station;
+    document.querySelectorAll(".station-item").forEach(item => item.classList.remove("active"));
+    event.target.classList.add("active");
+
+    
+    document.querySelector("h2").textContent = `Dati in tempo reale - ${capitalize(station)}`;
+    
+    
+    fetchData(station);
+}
+
+
+        
+        fetchStations();
+    </script>
+</body>
+</html>

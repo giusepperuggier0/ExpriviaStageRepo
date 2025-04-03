@@ -1,0 +1,32 @@
+Curriculum 10
+
+Maria F. Costa
+Rome, Italy
++39 345 678 9012
+maria.costa@italyemail.com
+
+Date of Birth: 1994 | Nationality: Italian
+
+WORK EXPERIENCE:
+
+09/2018 - Present
+DATA ANALYST - Data Insights Ltd.
+- Analyzed and visualized large data sets for business intelligence purposes.
+
+11/2014 - 08/2018
+SOFTWARE ENGINEER - Tech Innovations
+- Focused on backend development for enterprise applications.
+
+EDUCATION:
+2014
+BACHELOR OF COMPUTER SCIENCE - University of Rome
+
+SKILLS:
+- Data Analysis
+- Software Engineering
+- Backend Development
+
+LANGUAGE SKILLS:
+- Italian (Native)
+- English (Fluent)
+

@@ -1,0 +1,1 @@
+"C:\confluent-53\bin\windows\kafka-console-consumer.bat" --topic test1 --bootstrap-server localhost:9092 --from-beginning

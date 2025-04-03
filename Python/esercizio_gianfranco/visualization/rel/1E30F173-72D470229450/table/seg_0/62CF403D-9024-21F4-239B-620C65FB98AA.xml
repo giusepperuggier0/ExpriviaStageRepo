@@ -1,0 +1,157 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="62CF403D-9024-21F4-239B-620C65FB98AA" name="costs">
+<sourceDDLFile>esercizio1_visualization.sql</sourceDDLFile>
+<createdBy>Giuseppe</createdBy>
+<createdTime>2025-01-23 11:07:15 UTC</createdTime>
+<ownerDesignName>visualization</ownerDesignName>
+<importedID>96FC1A58-C3B5-9D14-A35F-3AF03CA4E6E8</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="prod_id" id="F75E0817-56C6-9A23-5597-7D04AF6FA235">
+<sourceDDLFile>esercizio1_visualization.sql</sourceDDLFile>
+<createdBy>Giuseppe</createdBy>
+<createdTime>2025-01-23 11:07:15 UTC</createdTime>
+<ownerDesignName>visualization</ownerDesignName>
+<importedID>9487A909-CA8E-A952-92D1-C75BE0D9DC4F</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>4325A9CD-2EBF-5C44-311C-77A1859CFA62</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1D30338E-51DD-21E0-F748-73AEE8FB3CE1" referredColumn="6C21A2EE-A3CE-A79C-D112-4839DD040E6C"/>
+</associations>
+</Column>
+<Column name="time_id" id="457AD06C-25C9-5F36-03E7-C4A0CA469A2D">
+<sourceDDLFile>esercizio1_visualization.sql</sourceDDLFile>
+<createdBy>Giuseppe</createdBy>
+<createdTime>2025-01-23 11:07:15 UTC</createdTime>
+<ownerDesignName>visualization</ownerDesignName>
+<importedID>E98EAB9D-EAA8-4D03-4C11-DB08B792EBBB</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>94309F27-086D-30FB-7FEA-8CD87219FAD7</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="21F6A2F2-EB8E-EBA9-75A5-7B5DF7FB8E3A" referredColumn="90D20DF2-4EF4-F3A0-0B26-A88221F63974"/>
+</associations>
+</Column>
+<Column name="promo_id" id="5051BAE8-72D3-C57E-6882-99572C7F3C7C">
+<sourceDDLFile>esercizio1_visualization.sql</sourceDDLFile>
+<createdBy>Giuseppe</createdBy>
+<createdTime>2025-01-23 11:07:15 UTC</createdTime>
+<ownerDesignName>visualization</ownerDesignName>
+<importedID>D075617D-FCD6-1379-C5DB-EC0E68BE278C</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>4325A9CD-2EBF-5C44-311C-77A1859CFA62</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="30DAFE7C-C8CB-395F-4ABD-C55F2746F779" referredColumn="DEFE67D9-2E40-37A3-D4A3-6BA7D02EEC01"/>
+</associations>
+</Column>
+<Column name="channel_id" id="F03F7355-6C01-4AB4-FB3E-32EC2E2F32F9">
+<sourceDDLFile>esercizio1_visualization.sql</sourceDDLFile>
+<createdBy>Giuseppe</createdBy>
+<createdTime>2025-01-23 11:07:15 UTC</createdTime>
+<ownerDesignName>visualization</ownerDesignName>
+<importedID>AAC65DAA-178A-2928-430D-0920DCF1E336</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>4325A9CD-2EBF-5C44-311C-77A1859CFA62</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9F124C02-4E29-AB54-159C-41B365281A00" referredColumn="7F6B02FC-24BB-FB3E-4089-BB9A111DB222"/>
+</associations>
+</Column>
+<Column name="unit_cost" id="4B3B43E9-AB44-A61D-5EF1-7DD663FE0A47">
+<sourceDDLFile>esercizio1_visualization.sql</sourceDDLFile>
+<createdBy>Giuseppe</createdBy>
+<createdTime>2025-01-23 11:07:15 UTC</createdTime>
+<ownerDesignName>visualization</ownerDesignName>
+<importedID>D4780F6E-3309-3DB7-979C-FC87BFF97365</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<domain>416DAB01-9CF4-2FA0-E008-1A096B3DC514</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="unit_amount" id="F7020F2A-5D0E-C86B-5AE2-63590E3E68F1">
+<sourceDDLFile>esercizio1_visualization.sql</sourceDDLFile>
+<createdBy>Giuseppe</createdBy>
+<createdTime>2025-01-23 11:07:15 UTC</createdTime>
+<ownerDesignName>visualization</ownerDesignName>
+<importedID>8E3909C8-215A-AD38-2C56-6D4960F7BCB8</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<domain>416DAB01-9CF4-2FA0-E008-1A096B3DC514</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DBCEF99C-1CB6-8EE8-22CD-23A389350F42" name="costs_PK">
+<sourceDDLFile>esercizio1_visualization.sql</sourceDDLFile>
+<createdBy>Giuseppe</createdBy>
+<createdTime>2025-01-23 11:07:15 UTC</createdTime>
+<ownerDesignName>visualization</ownerDesignName>
+<importedID>33696CFF-EB5A-BC37-DDBD-C54A2BC64C37</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F75E0817-56C6-9A23-5597-7D04AF6FA235"/>
+<colUsage columnID="457AD06C-25C9-5F36-03E7-C4A0CA469A2D"/>
+<colUsage columnID="5051BAE8-72D3-C57E-6882-99572C7F3C7C"/>
+<colUsage columnID="F03F7355-6C01-4AB4-FB3E-32EC2E2F32F9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AC34E638-58DE-F188-DA77-4834C4F47F85" name="costs_FK0">
+<createdBy>Giuseppe</createdBy>
+<createdTime>2025-01-23 11:07:15 UTC</createdTime>
+<ownerDesignName>visualization</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F03F7355-6C01-4AB4-FB3E-32EC2E2F32F9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BF35B1F0-E5B2-0FD7-342D-6EEC2A68063D" name="fk_prod_id">
+<createdBy>Giuseppe</createdBy>
+<createdTime>2025-01-23 11:07:15 UTC</createdTime>
+<ownerDesignName>visualization</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F75E0817-56C6-9A23-5597-7D04AF6FA235"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1F0DD120-3E47-AF2A-361A-38D94E48A7C7" name="fk_promo_id">
+<createdBy>Giuseppe</createdBy>
+<createdTime>2025-01-23 11:07:15 UTC</createdTime>
+<ownerDesignName>visualization</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5051BAE8-72D3-C57E-6882-99572C7F3C7C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C8553EDB-85B0-3E64-36E0-65FB4827047C" name="fk_time_id">
+<createdBy>Giuseppe</createdBy>
+<createdTime>2025-01-23 11:07:15 UTC</createdTime>
+<ownerDesignName>visualization</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="457AD06C-25C9-5F36-03E7-C4A0CA469A2D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.storage.sqlserver.v2k.StorageDesignSqlServerv2k>
+   <object objectType="User" objectID="DB_NULLELEMENT_dbo" name="dbo" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.storage.sqlserver.v2k.UserSqlServerv2k" propertyParentId="3424E3DB-F76EF3096E76"/>
+   <object objectType="Role" objectID="DB_NULLELEMENT_PUBLIC" name="PUBLIC" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.storage.sqlserver.v2k.RoleSqlServerv2k" propertyParentId="3424E3DB-F76EF3096E76"/>
+   <object objectType="Table" objectID="1132916E-1B4F-F59E-9244-29711BF57872" name="time" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.storage.sqlserver.v2k.TableProxySqlServerv2k" propertyParentId="3424E3DB-F76EF3096E76"/>
+   <object objectType="Table" objectID="2719AB70-69C4-5209-DE87-7C489B35882C" name="products" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.storage.sqlserver.v2k.TableProxySqlServerv2k" propertyParentId="3424E3DB-F76EF3096E76"/>
+   <object objectType="Table" objectID="2E53191C-3B03-620F-794D-3FB40440AD7E" name="sales" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.storage.sqlserver.v2k.TableProxySqlServerv2k" propertyParentId="3424E3DB-F76EF3096E76"/>
+   <object objectType="Table" objectID="2FC742AE-01EC-7AD3-7754-53AF0BB1C22C" name="demographics" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.storage.sqlserver.v2k.TableProxySqlServerv2k" propertyParentId="3424E3DB-F76EF3096E76"/>
+   <object objectType="Table" objectID="62CF403D-9024-21F4-239B-620C65FB98AA" name="costs" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.storage.sqlserver.v2k.TableProxySqlServerv2k" propertyParentId="3424E3DB-F76EF3096E76"/>
+   <object objectType="Table" objectID="6A40913B-A8FE-A12C-92B5-9E5B9E9B2179" name="channels" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.storage.sqlserver.v2k.TableProxySqlServerv2k" propertyParentId="3424E3DB-F76EF3096E76"/>
+   <object objectType="Table" objectID="80F045D8-6AC2-620D-6DD8-B00062B32CC2" name="customers" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.storage.sqlserver.v2k.TableProxySqlServerv2k" propertyParentId="3424E3DB-F76EF3096E76"/>
+   <object objectType="Table" objectID="911F207F-F78F-CEE0-500A-B6A616D2D94B" name="countries" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.storage.sqlserver.v2k.TableProxySqlServerv2k" propertyParentId="3424E3DB-F76EF3096E76"/>
+   <object objectType="Table" objectID="949EA640-2872-6DDA-8F9D-87A692A39856" name="promo" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.storage.sqlserver.v2k.TableProxySqlServerv2k" propertyParentId="3424E3DB-F76EF3096E76"/>
+</oracle.dbtools.crest.model.design.storage.sqlserver.v2k.StorageDesignSqlServerv2k>

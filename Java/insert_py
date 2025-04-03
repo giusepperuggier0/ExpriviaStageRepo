@@ -1,0 +1,32 @@
+from cassandra.cluster import Cluster
+
+CASSANDRA_HOSTS = ["127.0.0.1"]
+KEYSPACE = "my_space"
+TABLE_NAME = "json_data"
+
+def connect_cassandra():
+    cluster = Cluster(CASSANDRA_HOSTS)
+    session = cluster.connect()
+    session.set_keyspace(KEYSPACE)
+    return cluster, session
+
+def create_table(session):
+    query = f"""
+    CREATE TABLE IF NOT EXISTS {TABLE_NAME} (
+        id UUID PRIMARY KEY,
+        name TEXT,
+        surname TEXT,
+        address TEXT,
+        email LIST<TEXT>,
+        phone LIST<TEXT>,
+        work_experience LIST<TEXT>,
+        date_of_birth TEXT
+    );
+    """
+    session.execute(query)
+    print(f"Tabella {TABLE_NAME} creata con successo.")
+
+if __name__ == "__main__":
+    cluster, session = connect_cassandra()
+    create_table(session)
+    cluster.shutdown()

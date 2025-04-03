@@ -1,0 +1,134 @@
+Oracle SQL Developer Data Modeler 24.3.1.351.0831
+Oracle SQL Developer Data Modeler Log di importazione
+Data e ora: 2025-01-23 11:08:31 CET
+Nome progettazione: Senza titolo_1
+RDBMS : SQL Server 2000
+
+		Tutte le istruzioni: 		66
+		Istruzioni importate: 	17
+		Istruzioni non riuscite: 		0
+		Istruzioni non riconosciute: 	49
+
+<<<<< ERRORS >>>>>
+Null domain occurred while creating channels
+
+Null domain occurred while creating channels
+
+Null domain occurred while creating dem1v3
+
+Null domain occurred while creating dem1v3
+
+Null domain occurred while creating dem1v3
+
+Null domain occurred while creating dem1v3
+
+Null domain occurred while creating dem1v3
+
+Null domain occurred while creating dem1v3
+
+Null domain occurred while creating dem1v3
+
+Null domain occurred while creating dem1v3
+
+
+<<<<< Non riconosciuto >>>>>
+LOAD DATA LOCAL INFILE 'C:/Users/Giuseppe/Desktop/Stage_exprivia/Python/esercizio_gianfranco/costs.csv'  
+
+INTO TABLE esercizio1.costs  
+
+FIELDS TERMINATED BY ','  
+
+ENCLOSED BY '"'  
+
+LINES TERMINATED BY '\n'  
+
+IGNORE 1 ROWS  
+
+(prod_id,time_id,promo_id,channel_id,unit_cost,unit_price)
+
+LOAD DATA LOCAL INFILE 'C:/Users/Giuseppe/Desktop/Stage_exprivia/Python/esercizio_gianfranco/cust1v3.csv'  
+
+INTO TABLE esercizio1.cust1v3  
+
+FIELDS TERMINATED BY ','  
+
+ENCLOSED BY '"'  
+
+LINES TERMINATED BY '\n'  
+
+IGNORE 1 ROWS  
+
+(cust_id,cust_first_name,cust_last_name,cust_gender,cust_year_of_birth,cust_marital_status,cust_street_address,cust_postal_code,cust_city,cust_city_id,cust_state_province,cust_state_province_id,country_id,cust_main_phone_number,cust_income_level,cust_credit_limit,cust_email,cust_total,cust_total_id,cust_src_id,cust_eff_from,cust_eff_to,cust_valid)
+
+LOAD DATA LOCAL INFILE 'C:/Users/Giuseppe/Desktop/Stage_exprivia/Python/esercizio_gianfranco/dem1v3.csv'  
+
+INTO TABLE esercizio1.dem1v3  
+
+FIELDS TERMINATED BY ','  
+
+ENCLOSED BY '"'  
+
+LINES TERMINATED BY '\n'  
+
+IGNORE 1 ROWS  
+
+(education, occupation, household_size, yrs_residence, affinity_card,  
+bulk_pack_diskettes, flat_panel_monitor, home_theater_package, bookkeeping_application,  
+printer_supplies, y_box_games, os_doc_set_kanji, comments)
+
+LOAD DATA LOCAL INFILE 'C:/Users/Giuseppe/Desktop/Stage_exprivia/Python/esercizio_gianfranco/prod1v3.csv'  
+
+INTO TABLE esercizio1.prod1v3  
+
+FIELDS TERMINATED BY ','  
+
+ENCLOSED BY '"'  
+
+LINES TERMINATED BY '\n'  
+
+IGNORE 1 ROWS  
+
+(prod_subcategory,prod_subcategory_id,prod_subcategory_desc,prod_category,prod_category_id,prod_category_desc,prod_weight_class,prod_unit_of_measure,prod_pack_size,supplier_id,prod_status,prod_list_price,prod_min_price,prod_total,prod_total_id,prod_src_id,prod_eff_from,prod_eff_to,prod_valid)
+
+LOAD DATA LOCAL INFILE 'C:/Users/Giuseppe/Desktop/Stage_exprivia/Python/esercizio_gianfranco/prom1v3.csv'  
+
+INTO TABLE esercizio1.prom1v3  
+
+FIELDS TERMINATED BY ','  
+
+ENCLOSED BY '"'  
+
+LINES TERMINATED BY '\n'  
+
+IGNORE 1 ROWS  
+
+(promo_id,promo_name,promo_subcategory,promo_subcategory_id,promo_category,promo_category_id,promo_cost,promo_begin_date,promo_end_date,promo_total,promo_total_id)
+
+LOAD DATA LOCAL INFILE 'C:/Users/Giuseppe/Desktop/Stage_exprivia/Python/esercizio_gianfranco/sale1v3.csv'  
+
+INTO TABLE esercizio1.sale1v3  
+
+FIELDS TERMINATED BY ','  
+
+ENCLOSED BY '"'  
+
+LINES TERMINATED BY '\n'  
+
+IGNORE 1 ROWS  
+
+(prod_id,cust_id,time_id,channel_id,promo_id,quantity_sold,amount_sold)
+
+LOAD DATA LOCAL INFILE 'C:/Users/Giuseppe/Desktop/Stage_exprivia/Python/esercizio_gianfranco/time_1v3.csv'  
+
+INTO TABLE esercizio1.time_1v3  
+
+FIELDS TERMINATED BY ','  
+
+ENCLOSED BY '"'  
+
+LINES TERMINATED BY '\n'  
+
+IGNORE 1 ROWS  
+
+(time_id,day_name,day_number_in_week,day_number_in_month,calendar_week_number,fiscal_week_number,week_ending_day,week_ending_day_id,calendar_month_number,fiscal_month_number,calendar_month_desc,calendar_month_id,fiscal_month_desc,fiscal_month_id,days_in_cal_month,days_in_fis_month,end_of_cal_month,end_of_fis_month,calendar_month_name,fiscal_month_name,calendar_quarter_desc,calendar_quarter_id,fiscal_quarter_desc,fiscal_quarter_id,days_in_cal_quarter,days_in_fis_quarter,end_of_cal_quarter,end_of_fis_quarter,calendar_quarter_number,fiscal_quarter_number,calendar_year,calendar_year_id,fiscal_year,fiscal_year_id,days_in_cal_year,days_in_fis_year,end_of_cal_year,end_of_fis_year)
+

@@ -1,0 +1,1 @@
+"C:\confluent-53\bin\windows\kafka-topics.bat" --create --topic test --partitions 3 --replication-factor 3 --bootstrap-server localhost:9092

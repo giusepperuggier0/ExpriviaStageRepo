@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="1E30F173-9687-FCB3-02F9-72D470229450" mainViewID="7E739C07-7CF9-208B-0CD2-B1C6517995DA">
+<createdBy>Giuseppe</createdBy>
+<createdTime>2025-01-23 11:06:22 UTC</createdTime>
+<ownerDesignName>visualization</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>3424E3DB-6FE1-14EB-9311-F76EF3096E76</selectedRDBMSSite>
+<importDDLFileStamps>
+<importDDLFileStamp class="oracle.dbtools.crest.imports.DDLFileStamp">
+<fileName>esercizio1_visualization.sql</fileName>
+<pathName>C:\Users\Giuseppe\Desktop\Stage_exprivia\Python\esercizio_gianfranco</pathName>
+<dbType>4</dbType>
+</importDDLFileStamp>
+</importDDLFileStamps>
+</relationalModel>

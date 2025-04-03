@@ -1,0 +1,34 @@
+source_file,name,surname,email,phone,date_of_birth,recent_work_experience,work_skills,language_skills
+cv_1.txt,Anna M.,Lindberg,anna.lindberg@email.com,+46 70 123 45 67,1990,"04/2018 - Present
+PRODUCT MANAGER - TechGlobal
+- Oversee product lifecycle and collaborate with R&D teams.","['Cloud Computing', 'AI & Machine Learning', 'Software Engineering', 'Python and JavaScript']","['Swedish (Native)', 'English (Fluent)']"
+cv_10.txt,Maria F.,Costa,maria.costa@italyemail.com,+39 345 678 9012,1994,"09/2018 - Present
+DATA ANALYST - Data Insights Ltd.
+- Analyzed and visualized large data sets for business intelligence purposes.","['Data Analysis', 'Software Engineering', 'Backend Development']","['Italian (Native)', 'English (Fluent)']"
+cv_11.txt,Oliver L.,Turner,oliver.turner@scottishmail.com,+44 131 234 5678,1989,"05/2015 - Present
+SYSTEMS ENGINEER - ScotTech Solutions
+- Worked on IT infrastructure and systems for corporate clients.","['Cloud Computing', 'AI & Machine Learning', 'Software Engineering', 'Python and JavaScript']","['English (Native)', 'French (Intermediate)']"
+cv_2.txt,Marcus J.,Behrens,marcus.behrens@service.com,+49 170 987 6543,1987,"09/2015 - Present
+IT CONSULTANT - FutureTech Solutions
+- Designed and implemented IT systems for multinational corporations.","['Project Management', 'Content Strategy', 'Digital Marketing', 'Data Analysis']","['German (Native)', 'English (Fluent)', 'French (Basic)']"
+cv_3.txt,Clara E.,Johnson,clara.johnson@workemail.com,+44 7911 123456,1983,"05/2016 - Present
+BUSINESS DEVELOPMENT MANAGER - Global Solutions Ltd.
+- Created strategies for expanding global market reach.","['Business Strategy', 'Sales & Marketing', 'Client Relations']","['English (Native)', 'Spanish (Intermediate)']"
+cv_4.txt,Felix S.,Keller,felix.keller@swissmail.com,+41 79 876 5432,1992,"01/2020 - Present
+SOFTWARE ENGINEER - SwissTech Innovations
+- Developed software for automated processes in manufacturing.","['Cloud Computing', 'AI & Machine Learning', 'Software Engineering', 'Python and JavaScript']","['German (Native)', 'English (Fluent)']"
+cv_5.txt,Diana L.,Gomez,diana.gomez@email.com,+34 612 345 678,1988,"03/2017 - Present
+PROJECT MANAGER - InnovateTech Solutions
+- Managed international teams to launch tech products.","['Project Management', 'Content Strategy', 'Digital Marketing', 'Data Analysis']","['Spanish (Native)', 'English (Fluent)']"
+cv_6.txt,Liam H.,Richards,liam.richards@irelandmail.com,+353 87 654 3210,1991,"11/2017 - Present
+SALES MANAGER - GlobalTech Solutions
+- Managed cross-functional teams to deliver results in software sales.","['Sales & Marketing Strategy', 'Market Research', 'Cross-functional Team Leadership']","['English (Native)', 'French (Intermediate)']"
+cv_7.txt,Hannah T.,Schmidt,hannah.schmidt@germanmail.com,+49 160 123 9876,1990,"06/2018 - Present
+BUSINESS CONSULTANT - Smart Solutions
+- Consulted clients on IT and business integration strategies.","['Project Management', 'Content Strategy', 'Digital Marketing', 'Data Analysis']","['German (Native)', 'English (Fluent)', 'Italian (Basic)']"
+cv_8.txt,Eva P.,Santiago,eva.santiago@spainemail.com,+34 601 234 567,1986,"08/2015 - Present
+MARKETING DIRECTOR - Global Business Group
+- Managed global marketing initiatives across multiple platforms.","['Digital Marketing', 'Brand Strategy', 'Media Relations']","['Spanish (Native)', 'English (Fluent)']"
+cv_9.txt,Johan S.,Nielsen,johan.nielsen@email.dk,+45 213 456 789,1982,"12/2016 - Present
+ENGINEERING MANAGER - EnergyTech Solutions
+- Oversaw engineering teams focused on renewable energy projects.","['Project Management', 'Content Strategy', 'Digital Marketing', 'Data Analysis']","['Danish (Native)', 'English (Fluent)', 'Swedish (Basic)']"
