@@ -30,18 +30,18 @@ async def get_skills_data():
 async def plot_work_skills():
     work_skills, _ = await get_skills_data()
     img_buffer = generate_work_skills_chart(work_skills)
-    img_buffer.seek(0)
+    
     response = await send_file(img_buffer, mimetype='image/webp')
-    response.headers['Cache-Control'] = 'no-store, no-cache'
+    
     return response
 
 @app.route('/plot/language_skills')
 async def plot_language_skills():
     _, language_skills = await get_skills_data()
     img_buffer = generate_language_skills_chart(language_skills)
-    img_buffer.seek(0)
+    
     response = await send_file(img_buffer, mimetype='image/webp')
-    response.headers['Cache-Control'] = 'no-store, no-cache'
+    
     return response
 
 if __name__ == '__main__':
